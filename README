@@ -1,19 +1,14 @@
 Perl-Lisp version 0.0.1
 
-[ REPLACE THIS...
+Something of a wacky notion of mine, based on the notion of language
+equivalence. Both perl and Lisp are Turing-complete, therefore it should be
+possible to transform one into the other. Right? In fact there's a small subset
+that works almost mechanically, and that's what this is, a mechanical translator
+from one language to another.
 
-  The README is used to introduce the module and provide instructions on
-  how to install the module, any machine dependencies it may have (for
-  example C compilers and installed libraries) and any other information
-  that should be understood before the module is installed.
-
-  A README file is required for CPAN modules since CPAN extracts the
-  README file from a module distribution so that people browsing the
-  archive can use it get an idea of the modules uses. It is usually a
-  good idea to provide version information here so that people can
-  decide whether fixes for the module are worth downloading.
-]
-
+Of course, it won't work for the whole of both languages, but if I can isolate
+a small-enough subset it'd work. And fellow hackers might learn something about
+Lisp in the meantime.
 
 INSTALLATION
 
